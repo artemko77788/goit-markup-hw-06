@@ -355,7 +355,7 @@ ul {
   
   position: relative;
   align-self: center;
-
+padding-left: 20px;
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.7;
@@ -370,7 +370,7 @@ ul {
 .icon-check {
   position: absolute;
   top: 50%;
-  left: -15px;
+  left: 0;
   transform: translateY(-50%);
 
   width: 16px;
