@@ -81,21 +81,26 @@
 
                 <label for="name" class="forms-items" >Имя </label>
                <div class="area-wrap">
-                  <svg class="forms-icons" ><use href="./images/icons.svg#icon-man" class="forms-ocons"></use></svg>
+                  <svg class="forms-icons" ><use href="./images/icons.svg#icon-man"></use></svg>
                   <input type="name" id="name" class="input-area" autofocus >
                </div>
 
                 <label for="tel" class="forms-items">Телефон </label>
-               <div class="area-wrap"><svg class="forms-icons"><use href="./images/icons.svg#icon-phone" class="forms-ocons"></use></svg> <input type="tel" id="tel" class="input-area" /></div>
+               <div class="area-wrap"><svg class="forms-icons"><use href="./images/icons.svg#icon-phone" ></use></svg> <input type="tel" id="tel" class="input-area" /></div>
 
                 <label for="email" class="forms-items">Почта </label>
-                <div class="area-wrap"><svg class="forms-icons"><use href="./images/icons.svg#icon-mail" class="forms-ocons"></use></svg><input type="email" id="email"  class="input-area"/></div>
+                <div class="area-wrap"><svg class="forms-icons"><use href="./images/icons.svg#icon-mail" ></use></svg><input type="email" id="email"  class="input-area"/></div>
 
-                <label for="text" class="forms-items">Комментарий </label>
-                <textarea name="" id="text" class="input-area text-area" placeholder="Введите текст"></textarea>
+                <label for="" class="forms-items">Комментарий</label>
+                <textarea name=""  class="input-area text-area" placeholder="Введите текст"></textarea>
 
-                <label  class="forms-items checkbox-align">  <input type="checkbox"  /> Соглашаюсь с рассылкой и принимаю
-                  <a href="/index.html" class="form-contract">Условия договора</a></label>
+                <label  class="forms-items checkbox-item ">
+                  <input type="checkbox" class="checkbox"  /> Соглашаюсь с рассылкой и принимаю
+                  <a href="/index.html" class="form-contract">Условия договора</a>
+                  <svg class="icon-check">
+                    <use href="./images/icons.svg#icon-check" ></use>
+                  </svg>
+                  </label>
 
                 <button type="submit" class="form-button">Отправить</button>
               </form>
@@ -559,7 +564,7 @@
               id="email-footer"
               placeholder="E-mail"
             />
-            <button type="button" class="sign-us-btn">
+            <button type="submit" class="sign-us-btn">
               Подписаться
               <svg class="icon-send">
                 <use href="./images/icons.svg#icon-send"></use>

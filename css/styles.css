@@ -351,12 +351,37 @@ ul {
   margin-bottom: 20px;
 }
 
-.checkbox-align {
+.checkbox-item {
+  
+  position: relative;
   align-self: center;
+
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+}
+
+.checkbox {
+  appearance: none;
+}
+
+.icon-check {
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--primary-text-color);
+  border-radius: 2px;
+}
+
+.checkbox:checked ~ .icon-check {
+  background-color: var(--accent-color);
+  border: 2px solid var(--accent-color);
 }
 
 .form-button {
